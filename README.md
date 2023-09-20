@@ -1,14 +1,10 @@
 # Geofencing Flutter App
 
-![Geofencing Flutter](https://github.com/yourusername/geofencing_flutter/raw/main/assets/geofence.png)
-
-Welcome to the Geofencing Flutter App! This Flutter application allows you to set up geofences and receive notifications when a user enters or exits a specified geographical area. Geofencing can be a powerful tool for location-based applications, and this repository provides you with a starting point to implement geofencing features in your Flutter projects.
+Welcome to the Geofencing Flutter App! This Flutter application allows users to signin and submit reports when they are in a specified geographical area. Geofencing can be a powerful tool for location-based applications, and this repository provides you with a starting point to implement geofencing features in your Flutter projects. Signing and submitting report is handled by firebase
 
 ## Features
 
 - Set up geofences to monitor specific locations.
-- Receive notifications when a user enters or exits a geofence.
-- Customizable notifications.
 - Easy-to-use interface for managing geofences.
 
 ## Getting Started
@@ -18,31 +14,27 @@ Follow these steps to get started with the Geofencing Flutter App:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/geofencing_flutter.git
+   git clone https://github.com/Inihood1/Flutter-geonfencing.git
    ```
 
-2. Replace the following assets with your own:
+2. Open the project in your favorite Flutter IDE (e.g., Android Studio, Visual Studio Code).
 
-   - `assets/geofence.png`: Replace this image with an icon or image that represents your geofence.
-
-3. Open the project in your favorite Flutter IDE (e.g., Android Studio, Visual Studio Code).
-
-4. Run the app on an emulator or physical device:
+3. Run the app on an emulator or physical device:
 
    ```bash
    flutter run
    ```
 
-5. Configure the geofences in the app according to your requirements.
+4. Configure the geofences in the app according to your requirements.
 
-6. Test the geofencing functionality by entering or exiting the defined geofence areas.
+5. Test the geofencing functionality by defining your geofence areas.
 
 ## Dependencies
 
-This project relies on the following packages:
+This project relies on these core packages:
 
-- [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) for customizing and displaying notifications.
-- [geofencing_flutter](https://pub.dev/packages/geofencing_flutter) for geofencing functionality.
+- [geolocator](https://pub.dev/packages/geolocator) for location service.
+- [latlong2](https://pub.dev/packages/latlong2) for geofencing functionality and calculating distance between 2 locations.
 - [provider](https://pub.dev/packages/provider) for state management.
 
 You can find the complete list of dependencies in the `pubspec.yaml` file.
