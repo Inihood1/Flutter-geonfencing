@@ -34,7 +34,6 @@ dependencies:
   uuid: 3.0.6
   file_support: ^1.0.3+6
   shared_preferences: ^2.0.15
-#  geofence_service: ^3.5.0
   geolocator: ^9.0.2
   latlong2: ^0.8.1
   cached_network_image:
