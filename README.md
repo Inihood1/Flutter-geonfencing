@@ -41,14 +41,6 @@ You can find the complete list of dependencies in the `pubspec.yaml` file.
 
 ## Customization
 
-### Geofence Image
-
-To customize the geofence image/icon, replace the `assets/geofence.png` file with your preferred image. Make sure to maintain the same filename and format (PNG) to avoid any code changes.
-
-### Notifications
-
-Customize the geofencing notifications by modifying the notification settings in the code. You can change the notification sound, appearance, and content to match your app's branding and user experience.
-
 ## Contribution
 
 Contributions are welcome! If you have any feature suggestions, bug reports, or improvements, please feel free to open an issue or submit a pull request. Let's make this geofencing Flutter app even better together.
